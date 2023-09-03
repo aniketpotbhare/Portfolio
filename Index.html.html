@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aniket_Potbhare-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <!-- creating this nav bar for desktop view -->
+  <nav id="desktop-nav">
+    <div class="logo">Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Internship-Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- creating this nav bar for humburger view -->
+  <nav id="hamburger-nav">
+    <div class="logo">Portfolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Internship-Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- AFTER NAV BAR -->
+  <section id="profile">
+    <div class="section__pic-container" id="apbolte">
+      <img src="./assets/AniketPotbhare_IT(Passport)blue.png" alt="Aniket Potbhare profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aniket Potbhare</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <!-- <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"> -->
+        <button class="btn btn-color-2" onclick="window.open('./assets/AniketPotbhare.pdf')">
+          Download Resume
+        </button>
+        <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'"> -->
+        <button class="btn btn-color-1" >
+        <a href="#contact">  Contact Me!</a> 
+        </button>
+      </div>
+
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/'" />
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION  -->
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More😎</p>
+    <h1 class="title">About Me!</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/AniketPotbhare_IT(Passport)blue.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Internship-Experience</h3>
+            <h5><br />👨‍💻Web-Development</h5>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <br>
+            <h5>🎓Bachelor of Engineering<br />🎓 Diploma in Computer Engineering</h5>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            🚀 Aspiring Software Engineer | Frontend Enthusiast | Open to New Opportunities 🌐
+            <br>
+            <br>
+            As a recent IT graduate, I am highly motivated to start my career in the industry and contribute my skills
+            to make a positive impact. My educational background has provided me with a solid foundation in programming
+            languages such as Java, as well as experience in Front-end Developemnt, Web Designing.
+            <br><br>
+            💻 Frontend Development | Bringing Ideas to Life 💡
+            <br><br>
+            As a frontend enthusiast, I revel in the art of crafting captivating user interfaces that seamlessly blend
+            creativity and functionality. Transforming concepts into reality through elegant code brings me immense joy,
+            and I am driven to create exceptional digital experiences.
+            <br><br>
+            During my academic years, I completed Internship in Web Designing at ICEICO Technologies Pvt.Ltd Nagpur also
+            completed another Internship at Coretechtive Solutions, Amravti as a Front-End Developer.
+            <br><br>
+            🎓 Curious Learner | Forever Student 📚 <br> <br>
+            Currently, I am focusing on expanding my knowledge in Java to enhance Full Stack Java development skills.
+            In my pursuit of excellence, I strive to be a lifelong learner. I am dedicated to expanding my horizons by
+            engaging in workshops, attending tech conferences, and staying updated on the latest advancements in the
+            field.
+            <br><br>
+            As a quick learner, I am actively seeking new opportunities to contribute my skills and make a positive
+            impact in the field of IT. I am open to exploring different areas of IT, including software development,
+            Java Full Stack Development, and Web development.
+            <br><br>
+            🌱 A Growth-Oriented Mindset 📈
+            <br><br>
+            I believe that continuous learning is the key to staying ahead in the fast-paced world of technology.
+            Embracing challenges, learning from setbacks, and seeking new skills are integral to my personal and
+            professional development. I am always excited to explore emerging trends and best practices in software
+            engineering.
+            <br><br>
+            🤝 Let's Connect! 📩
+            <br><br>
+            I am enthusiastic about networking with professionals who share my passion for software engineering and
+            frontend development. Whether it's discussing exciting projects, exploring potential collaborations, or
+            exchanging ideas, I'm always open to connecting and learning from diverse perspectives.
+            <br><br>
+            If you have any exciting opportunities or ideas to discuss, feel free to reach out. Let's connect and make a
+            positive impact through technology!
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--starts the experience section  -->
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Internship-Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <h5>Experienced</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <h5>Experienced</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+
+              <div>
+                <h3>JavaScript</h3>
+                <h5> Basic </h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+                <h5>Intermediate</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <h5>Intermediate</h5>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title"> Programming Language and Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java-Language</h3>
+                <h5>Intermediate</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySql</h3>
+                <h5>Intermediate</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Advance-Java</h3>
+                <h5>Beggining</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <h5>Intermediate</h5>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS</h3>
+                <h5>Basic</h5>
+              </div>
+
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <br><br><br><br><br>
+  <!-- my projects section starts hereeeeeeee -->
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/internship.jpg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Website:Internship Providing Platform🎓 </h2>
+          <div class="btn-container">
+            <button class="btn1 btn-color-2 project-btn" onclick="location.href='https://github.com/'" disabled>
+              Detail About Project
+            </button>
+            <button class="btn1 btn color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/portfolio dp.jpg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">My Portfolio Website👨‍💻</h2>
+          <div class="btn-container">
+            <button class="btn1 btn-color-2 project-btn" onclick="location.href='https://github.com/'" disabled>
+              Detail About Project
+            </button>
+            <button class="btn1 btn color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/ash photography.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Website for Photography📸</h2>
+          <div class="btn-container">
+            <button class="btn1 btn-color-2 project-btn" onclick="location.href='https://'" disabled>
+              Detail About Project
+            </button>
+            <button class="btn1 btn color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- arrow -->
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <!-- contact wala section start here -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="aniketpotbhare12@gmail.com">aniketpotbhare12@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="linkedin.com/in/aniket-potbhare-a98b32245">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- yeh hai apna footer -->
+
+
+  <footer>
+     <a style="text-decoration:none; " href="https://www.instagram.com/aniket_potbhare/?hl=en"><p>Copyright &#169; 2023 Aniket Potbhare. All Rights Reserved.</a>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/in/aniket-potbhare-a98b32245/' " >
+         
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/aniketpotbhare/'" />
+
+          <img src="./assets/instagram.avif" alt="My Instagram profile" class="icon"
+          onclick="location.href='https://www.instagram.com/aniket_potbhare/?hl=en/'" />
+
+          <img src="./assets/linkree 2.png" alt="My linktree profile" class="icon"
+          onclick="location.href='https://linktr.ee/aniketpotbhare?utm_source=linktree_profile_share&ltsid=23315a74-1145-4df5-b101-8398ed8f6994/'"/>
+      </div>
+    
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
